@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(254, 255, 217, 1) 0%,
+    rgba(219, 243, 249, 1) 100%,
+    rgba(131, 216, 237, 1) 100%,
+    rgba(105, 230, 255, 1) 100%
+  );
+  padding: 0;
+  margin: 0;
+}
+header span h2 {
+  position: absolute;
+  left: 600px;
+}
+a {
+  color: #686c75;
+  fill: Solid;
+  margin-left: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+span {
+  width: 430px;
+}
+.headDiv {
+  display: flex;
+  max-width: 1207px;
+  height: 41.79px;
+  margin-top: 20.64px;
+  margin-left: 132px;
+  margin-right: 92px;
+}
+
+.headLeftDiv {
+  width: 300.27px;
+  height: 20.89px;
+}
+
+.headRightDiv {
+  width: 300.27px;
+  height: 20.89px;
+}
+
+.footDiv {
+  width: 514.94px;
+  position: absolute;
+  bottom: 20px;
+  left: 370px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.imgLogo {
+  height: 40px;
+  width: 60px;
+}
+.imgVector {
+  position: absolute;
+  top: 100px;
+  left: 105px;
+}
+.imgGroup {
+  position: absolute;
+  top: 315px;
+  left: 70px;
+  height: 80px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.imgMap {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+a:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  color: #002ead;
+}
+.Location {
+  position: absolute;
+  color: #989898;
+  top: 348px;
+  left: 250px;
+}
+
+.City {
+  position: absolute;
+  color: #989898;
+  top: 348px;
+  left: 122px;
+}
+
+.btnSchedule {
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  top: 337px;
+  left: 480px;
+  background-color: #fd5b2f;
+  color: white;
+  height: 42px;
+  width: 128px;
+  cursor: pointer;
+}
+
+.btnSchedule:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+main div h1 {
+  position: absolute;
+  left: 100px;
+  top: 110px;
+  width: 290px;
+  font-weight: 700px;
+  font-size: 42.36px;
+}
+.frame {
+  position: absolute;
+  top: 55px;
+  left: 540px;
+  height: 400px;
+}
+.main {
+  position: absolute;
+  left: 550px;
+  width: 270px;
+}
+.ellipse1 {
+  position: absolute;
+  right: 330px;
+  top: 20px;
+  width: 250px;
+}
+.ellipse2 {
+  position: absolute;
+  right: 315.7px;
+  top: 180px;
+  width: 200px;
+}
+.forth {
+  position: absolute;
+  right: 315.7px;
+  top: 140px;
+  width: 50px;
+  border-radius: 100px;
+}
+.coWorking {
+  position: absolute;
+  font-weight: 700;
+  font-size: 30.0693px;
+  line-height: 49px;
+  top: 254px;
+  left: 670px;
+  width: 343.46px;
+  height: 49.17px;
+  color: #000000;
+  opacity: 0.1;
+  transform: rotate(-90deg);
+}
+.visit {
+  position: absolute;
+  top: 432px;
+  left: 265px;
+  font-size: small;
+}
+.ten1 {
+  position: absolute;
+  top: 432px;
+  left: 228px;
+  font-size: small;
+  color: white;
+}
+.ten {
+  position: absolute;
+  top: 420px;
+  left: 220px;
+}
+.person {
+  position: absolute;
+  top: 420px;
+  left: 195px;
+}
+.person1 {
+  position: absolute;
+  top: 420px;
+  left: 170px;
+}
+.person2 {
+  position: absolute;
+  top: 420px;
+  left: 145px;
+}
+.person3 {
+  position: absolute;
+  top: 420px;
+  left: 120px;
+}
+.person4 {
+  position: absolute;
+  top: 420px;
+  left: 95px;
+}
+.person5 {
+  position: absolute;
+  top: 420px;
+  left: 70px;
+}
+.person6 {
+  position: absolute;
+  top: 420px;
+  left: 70px;
+}
